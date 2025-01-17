@@ -14,6 +14,3 @@ int main() {
     //printf("%s", welcome());
     return 0;
 }
-    //printf("%s", welcome());
-    return 0;
-}
