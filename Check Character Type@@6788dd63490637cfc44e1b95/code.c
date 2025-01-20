@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     char charcter;
+    scanf("%c"&character);
     if(charcter=='a'|| charcter=='e'|| charcter=='i'|| charcter=='o'|| charcter=='u'){
         printf("Vowel\n");
     }
@@ -11,7 +12,7 @@ int main() {
         printf("Digit\n");
     }
     else{
-        printf("Special Character\n")
+        printf("Special Character\n");
     }
     return 0;
 }
