@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
     char charcter;
-    if(charcter=='a'){
+    char vowel=='a','e','i','o','u';
+    if(charcter==Vowel){
         printf("Vowel\n");
     }
     else {
