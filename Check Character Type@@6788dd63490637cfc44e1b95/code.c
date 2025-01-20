@@ -2,7 +2,7 @@
 int main() {
     char charcter;
     char vowel='a','e','i','o','u';
-    if(charcter==Vowel){
+    if(charcter==vowel){
         printf("Vowel\n");
     }
     else {
