@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    int a;
+    scanf("%d",&a);
     if(a>0){
         printf("Positive\n");
     }
@@ -10,6 +11,5 @@ int main() {
     else if (a==0){
         printf("Zero\n");
     }
-   // printf("%s", welcome());
     return 0;
 }
