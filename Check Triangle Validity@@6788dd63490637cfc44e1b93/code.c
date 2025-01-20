@@ -6,7 +6,7 @@ int main() {
         printf("Valid\n");
     }
     else{
-        printf("INvalid\n");
+        printf("Invalid\n");
     }
     //printf("%s", welcome());
     return 0;
