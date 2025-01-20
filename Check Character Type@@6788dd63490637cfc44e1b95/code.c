@@ -10,7 +10,6 @@ int main() {
     else if(isdigit(charcter)){
         printf("Digit\n");
     }
-    }
     else{
         printf("Special Character\n")
     }
