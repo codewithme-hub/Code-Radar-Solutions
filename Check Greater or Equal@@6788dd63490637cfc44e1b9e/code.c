@@ -2,10 +2,10 @@
 int main() {
     int a,b;
     if(a>=b){
-        printf("Yes\n")
+        printf("Yes\n");
     }
     else{
-        printf("No\n")
+        printf("No\n");
     }
     //printf("%s", welcome());
     return 0;
