@@ -5,7 +5,7 @@ int main() {
         printf("Yes\n");
     }
     else{
-        printf("No\n");
+        printf("No");
     }
     //printf("%s", welcome());
     return 0;
