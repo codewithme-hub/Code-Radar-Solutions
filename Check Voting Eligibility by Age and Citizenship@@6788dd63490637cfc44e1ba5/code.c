@@ -3,10 +3,10 @@ int main() {
     int age ,citizenship;
     scanf("%d %d",&age,&citizenship);
     if(age>=18 && citizenship==1){
-        printf("Eligible")
+        printf("Eligible");
     }
     else{
-        printf("Not Eligible")
+        printf("Not Eligible");
     }
     //printf("%s", welcome());
     return 0;
