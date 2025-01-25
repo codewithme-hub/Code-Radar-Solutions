@@ -4,7 +4,7 @@ int main() {
     char choice;
 
     // Taking input in the format "5 3 +"
-    scanf("%lf %lf %c", &num1, &num2, &choice);
+    scanf("%d %d %c", &num1, &num2, &choice);
 
     // Performing the calculation based on the operator
     switch (choice) {
@@ -25,8 +25,8 @@ int main() {
                 printf("Error\n");
             }
             break;
-        default;
-        printf("error\n");
+        default:
+            printf("error\n");
     }
 
     return 0;
