@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
-    double num1, num2;
-    char operator;
+    int num1, num2;
+    char choice;
 
     // Taking input in the format "5 3 +"
-    scanf("%lf %lf %c", &num1, &num2, &operator);
+    scanf("%lf %lf %c", &num1, &num2, &choice);
 
     // Performing the calculation based on the operator
-    switch (operator) {
+    switch (choice) {
         case '+':
             printf("%.2lf\n", num1 + num2);
             break;
@@ -25,10 +25,10 @@ int main() {
                 printf("Error\n");
             }
             break;
+        default;
+        printf("error\n");
     }
 
     return 0;
 }
-    printf("%s", welcome());
-    return 0;
-}
+    //printf("%s", welcome());
