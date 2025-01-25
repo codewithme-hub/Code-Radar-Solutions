@@ -9,18 +9,18 @@ int main() {
     // Performing the calculation based on the operator
     switch (choice) {
         case '+':
-            printf("%.2lf\n", num1 + num2);
+            printf("%d\n", num1 + num2);
             break;
         case '-':
-            printf("%.2lf\n", num1 - num2);
+            printf("%d\n", num1 - num2);
             break;
         case '*':
-            printf("%.2lf\n", num1 * num2);
+            printf("%d\n", num1 * num2);
             break;
         case '/':
             // Checking for division by zero
             if (num2 != 0.0) {
-                printf("%.2lf\n", num1 / num2);
+                printf("%d\n", num1 / num2);
             } else {
                 printf("Error\n");
             }
