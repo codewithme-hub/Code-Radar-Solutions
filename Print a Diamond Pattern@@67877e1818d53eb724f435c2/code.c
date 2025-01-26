@@ -1,15 +1,23 @@
 #include <stdio.h>
+
 int main() {
     int N;
-    scanf("%d",&N);
-    for (int i=1;i<=N;i++){
-        for (int j<=N-i;j++){
+    scanf("%d", &N);  // Input the size of the diamond (half height)
+
+    // Upper half of the diamond (including the middle row)
+    for (int i = 1; i <= N; i++) {
+        // Print leading spaces
+        for (int j = 1; j <= N - i; j++) {
             printf(" ");
         }
-        for(int j=1;j<=2*i-1;j++){
+        // Print stars
+        for (int j = 1; j <= 2 * i - 1; j++) {
             printf("*");
-        } printf("\n");
+        }
+        printf("\n");
     }
+
+    // Lower half of the diamond (excluding the middle row)
     for (int i = N - 1; i >= 1; i--) {
         // Print leading spaces
         for (int j = 1; j <= N - i; j++) {
@@ -21,5 +29,6 @@ int main() {
         }
         printf("\n");
     }
+
     return 0;
 }
