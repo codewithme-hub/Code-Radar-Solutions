@@ -13,7 +13,7 @@ int main() {
             printf("%d",j); number triangle
         }
         for(int k=1;k<=i-1;k++){
-            printf("%d",a); 
+            printf("%d",a); // actual logic to print decreasing number..
             a--;
         }
         printf("\n");
