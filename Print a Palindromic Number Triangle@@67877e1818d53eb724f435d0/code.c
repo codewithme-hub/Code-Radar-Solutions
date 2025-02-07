@@ -6,14 +6,14 @@ int main() {
     for(int i=1;i<=n;i++){
         int a=i-1;
         for(int q=1;q<=nsp;q++){
-            printf(" ");
+            printf(" ");// spaces print wala loop 
             
         }nsp--;
         for(int j=1;j<=i;j++){
-            printf("%d",j);
+            printf("%d",j); number triangle
         }
         for(int k=1;k<=i-1;k++){
-            printf("%d",a);
+            printf("%d",a); //actual logic to print decreasing number..
             a--;
         }
         printf("\n");
