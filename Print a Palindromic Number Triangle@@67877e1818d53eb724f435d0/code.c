@@ -9,7 +9,7 @@ int main() {
             
         }nsp--;
         for(int j=1;j<=i;j++){
-            printf("%d",j); number triangle
+            printf("%d",j); //number triangle
         }
         int a= i-1;
         for(int k=1;k<=i-1;k++){
