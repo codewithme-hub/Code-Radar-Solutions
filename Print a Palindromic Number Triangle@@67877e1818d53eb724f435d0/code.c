@@ -7,12 +7,12 @@ int main() {
         int a=i-1;
         for(int q=1;q<=nsp;q++){
             printf(" ");
-            nsp--;
-        }
+            
+        }nsp--;
         for(int j=1;j<=i;j++){
             printf("%d",j);
         }
-        for(int k=1;k<=n-i;k++){
+        for(int k=1;k<=i-1;k++){
             printf("%d",a);
             a--;
         }
