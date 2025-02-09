@@ -3,7 +3,7 @@ int main() {
     int num;
     scanf("%d",&num);
     int lowestSetBit = num & -num;
-    printf("%d",num,lowestSetBit);
+    printf("%d",lowestSetBit);
 
 
     //printf("%s", welcome());
