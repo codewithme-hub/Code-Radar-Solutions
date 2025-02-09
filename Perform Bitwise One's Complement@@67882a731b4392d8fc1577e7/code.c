@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n;
+    int a;
     scanf("%d",&a);
     printf("%d",~a);
    // printf("%s", welcome());
