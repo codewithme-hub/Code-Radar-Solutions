@@ -2,7 +2,7 @@
 int main() {
     int num;
     scanf("%d",&num);
-    int lowestSetBit = num & -num;
+    int lowestSetBit = (num == 1) ? 0 : (num & -num);
     printf("%d",lowestSetBit);
 
 
