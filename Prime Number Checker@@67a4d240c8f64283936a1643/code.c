@@ -1,4 +1,12 @@
 #include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    isPrime(n);
+    return 0;
+
+
+}
 void isPrime(int n){
     int a=0;
     for(int i=2;i*i<=n;i++){
@@ -15,12 +23,4 @@ void isPrime(int n){
         printf("0");
     }
     return;
-}
-int main(){
-    int n;
-    scanf("%d",&n);
-    isPrime(n);
-    return 0;
-
-
 }
