@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     //int peak =-1;
     if(n<=0){
-        printf("-1\n")
+        printf("-1\n");
         return 0;
     }
     int arr[n];
