@@ -8,7 +8,7 @@ int isPalindrome(int arr[],int n){
     i++;
     j--;
 }
-return 1;
+return ;
 int main(){
     int n;
     scanf("%d",&n);
