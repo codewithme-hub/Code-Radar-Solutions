@@ -9,7 +9,6 @@ void reverse(int arr[],int a,int b){
     arr[j]=temp;
     i++;
     j--;
-    return;
 }
 }
 int main(){
