@@ -19,9 +19,9 @@ for(int j=i+1;j<n;j++){
         count++;
         visited[j]=1;
     }
-} 
+} printf("%d %d\n", arr[i], count);
+
 }
-printf("%d %d\n", arr[i], count);
 
 
 
