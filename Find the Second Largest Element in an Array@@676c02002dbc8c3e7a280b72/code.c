@@ -20,7 +20,7 @@ int main(){
         }
     } 
     if(smax==INT_MIN){
-        printf("-1\n")
+        printf("-1\n");
     }
     else{
         printf("%d",smax);
