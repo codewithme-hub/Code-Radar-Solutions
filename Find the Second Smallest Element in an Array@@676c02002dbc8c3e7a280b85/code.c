@@ -17,7 +17,7 @@ int secondsmallest(int arr[],int n){
     if(n<2) return -1;
     bubbleSort(arr,n);
     int smallest=arr[0];
-    for(int i=0;i<n[i++]){
+    for(int i=0;i<n;i++){
         if(arr[i]>smallest) return arr[i];
     }
 }
@@ -28,7 +28,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    int result = secondSmallest(arr, n);
+    int result = secondsmallest(arr, n);
     printf("%d", result);
     
     }
