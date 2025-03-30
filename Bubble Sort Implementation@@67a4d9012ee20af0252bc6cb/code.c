@@ -1,4 +1,5 @@
-void bubbleSort(arr[],int n){
+#include<stdbool.h>
+void bubbleSort(int arr[],int n){
     for(int i=0;i<n-1;i++){
         bool flag =true;
         for(int j=0;j<n-1-i;j++){
