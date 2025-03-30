@@ -15,6 +15,6 @@ int main() {
         }
     }
 
-    printf("-1"); // No repeating element found
+    printf("-1");
     return 0;
 }
