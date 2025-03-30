@@ -6,13 +6,19 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int duplicate=0;
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
+        int duplicate=0;
+        for(int j=0;j<i;j++){
             if(arr[i]==arr[j]){
-            printf("%d",arr[i]);
-
-            break;
+                count=-1;
+                break;
         }
-    }
+    } if(count ==-1) continue;
+    for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                count++;
+                break;
+            }
+        } 
+        if(count>0) printf("%d",arr[i]);
 }}
