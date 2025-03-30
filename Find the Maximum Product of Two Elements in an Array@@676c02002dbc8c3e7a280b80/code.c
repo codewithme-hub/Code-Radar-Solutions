@@ -16,7 +16,7 @@ int maxproduct(int arr[],int n){
     bubbleSort(arr,n);
     int O1=arr[n-1] * arr[n-2];
     int O2=arr[0] * arr[1];
-    return fmax(arr[n - 1] * arr[n - 2], arr[0] * arr[1]);
+    return (O1 > O2) ? O1 : O2; 
 
 }
 int main(){
