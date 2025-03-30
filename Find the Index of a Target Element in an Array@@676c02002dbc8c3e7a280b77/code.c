@@ -8,10 +8,15 @@ int main(){
     }
     int target;
     scanf("%d",&target);
+    int found=0;
     for(int i=0;i<n;i++){
         if (arr[i]==target){
-        printf("%d",arr[i]);
-        break;
+        printf("%d",i);
+        found=1;
     }
+    if(!found){
+        printf("-1\n");
+    }
+
     }
 }
