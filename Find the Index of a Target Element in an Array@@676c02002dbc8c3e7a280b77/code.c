@@ -14,9 +14,9 @@ int main(){
         printf("%d",i);
         found=1;
     }
+
+    }
     if(!found){
         printf("-1\n");
-    }
-
     }
 }
