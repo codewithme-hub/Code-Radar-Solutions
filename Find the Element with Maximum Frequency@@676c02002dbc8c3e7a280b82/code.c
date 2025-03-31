@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     } 
-   int max_count=0;result =arr[0];
+   int max_count=0;result=arr[0];
     for(int i=0;i<n;i++){
         int count=0;
         for(int j=i+1;j<n;j++){
