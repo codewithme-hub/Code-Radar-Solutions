@@ -6,15 +6,18 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     } 
-    int frequency=0;
+   int max_count=0;result =arr[0];
     for(int i=0;i<n;i++){
+        int count=0;
         for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j])
-            frequency++;
-            break;
+            if(arr[i]==arr[j]) count++;
             
         }
-        if(frequency>1) printf("%d",arr[i]);
+        if(count>max_count ||(count==max_count && arr[i]<result)){
+            max_count=count;
+            result=arr[i];
+        }
+    printf("%d",result);
         
     }
 }
